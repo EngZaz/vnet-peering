@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "existingLocalVirtualNetworkName": {
+            "value": "spoke-vnet"
+        },
+        "existingRemoteVirtualNetworkName": {
+            "value": "hub-vnet-rg"
+        },
+        "existingRemoteVirtualNetworkResourceGroupName": {
+            "value": "hub-vnet-rg"
+        },
+        "remoteVirtualNetworkId": {
+            "value": ""
+        },
+        "RemoteSubscriptionId": {
+            "value": "",
+            "metadata": {
+                "description": "the value of this parameter will be acquired from a previous step. or it could be manually added"
+            }
+        },
+        "location": {
+            "value": ""
+        }
+    }
+}
