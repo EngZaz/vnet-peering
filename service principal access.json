@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "roleName": "IPC vnet-peering ",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/type your hub subscription id",
+            "/subscriptions/tyoe your Spoke subscription id"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write",
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
+                    "Microsoft.Network/virtualNetworks/peer/action",
+                    "Microsoft.Resources/deployments/write",
+                    "Microsoft.Resources/deployments/validate/action",
+                    "Microsoft.Resources/deployments/operationStatuses/read",
+                    "Microsoft.Resources/deployments/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
